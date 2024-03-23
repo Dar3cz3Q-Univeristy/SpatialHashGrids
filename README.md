@@ -15,7 +15,7 @@ A better option is to use a method such as Spatial hash grid. Its operation is s
 1. We divide the area into smaller cells,
 1. When we add artifacts, we assign them to individual cells,
 1. When a Jedi appears, we choose cells near Jedi,
-1. We calculate the distances of artifacts from jedi in previously selected cells.
+1. We calculate the distances of artifacts from Jedi in previously selected cells.
 
 ## Config file
 In the configuration file, we can set things such as map dimensions, search radius, file names in which the data will be stored, etc.
