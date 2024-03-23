@@ -14,10 +14,10 @@
         "type": "Grid point"
       }
     },
-    "n": 1000, // Number of artifacts
-    "d": 0.5, // The maximum value by which the artifact can move at one time
-    "f": 10, // Number of Jedis
-    "h": 1.0, // Searching radius
+    "n": 1000,
+    "d": 0.5,
+    "f": 10,
+    "h": 1.0,
     "number_of_steps": 20
   },
   "file": {

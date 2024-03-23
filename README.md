@@ -21,6 +21,12 @@ A better option is to use a method such as Spatial hash grid. Its operation is s
 In the configuration file, we can set things such as map dimensions, search radius, file names in which the data will be stored, etc.
 Sample file: [config/config.json](<Spatial hash grids/config/config.json>)
 
+### Some config data
+"n" - Number of artifacts
+"d" - The maximum value by which the artifact can move at one time
+"f" - Number of Jedis
+"h" - Searching radius
+
 ## Duration
 The measured search duration will be saved in `logs/` folder.
 
