@@ -19,7 +19,7 @@ A better option is to use a method such as Spatial hash grid. Its operation is s
 
 ## Config file
 In the configuration file, we can set things such as map dimensions, search radius, file names in which the data will be stored, etc.
-Sample file: [config/config.json](config/config.json)
+Sample file: [config/config.json](<Spatial hash grids/config/config.json>)
 
 ## Duration
 The measured search duration will be saved in `logs/` folder.
