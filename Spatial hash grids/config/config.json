@@ -1,0 +1,39 @@
+{
+  "map": {
+    "grid": {
+      "A": {
+        "id": 65,
+        "x": 0,
+        "y": 0,
+        "type": "Grid point"
+      },
+      "B": {
+        "id": 66,
+        "x": 10,
+        "y": 10,
+        "type": "Grid point"
+      }
+    },
+    "n": 1000, // Number of artifacts
+    "d": 0.5, // The maximum value by which the artifact can move at one time
+    "f": 10, // Number of Jedis
+    "h": 1.0, // Searching radius
+    "number_of_steps": 20
+  },
+  "file": {
+    "placeholder_symbol": "$",
+    "jedi": {
+      "jedi_input_folder": "test_data/jedi_coords",
+      "jedi_filename_schema": "jedi_po_kroku_$.txt"
+    },
+    "artifact": {
+      "artifact_input_folder": "test_data/movements",
+      "artifact_starting_position_filename": "pozycje_poczatkowe.txt",
+      "artifact_filename_schema": "przemieszczenia_$.txt"
+    },
+    "output": {
+      "output_folder": "test_data/results",
+      "output_filename_schema": "wynik_po_kroku_$.txt"
+    }
+  }
+}
