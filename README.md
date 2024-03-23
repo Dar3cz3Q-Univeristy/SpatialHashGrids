@@ -22,10 +22,10 @@ In the configuration file, we can set things such as map dimensions, search radi
 Sample file: [config/config.json](<Spatial hash grids/config/config.json>)
 
 ### Some config data
-"n" - Number of artifacts
-"d" - The maximum value by which the artifact can move at one time
-"f" - Number of Jedis
-"h" - Searching radius
+* n - Number of artifacts
+* d - The maximum value by which the artifact can move at one time
+* f - Number of Jedis
+* h - Searching radius
 
 ## Duration
 The measured search duration will be saved in `logs/` folder.
@@ -37,8 +37,8 @@ Sample measured time differences based on 50 trials.
 In the main function we provide the file location of the configuration file and choose optimization type. Then we create `Map` object, initialize artifacts and Jedis and then run the `play()` function. 
 
 ### Optimization types:
-0 - bruteforce,
-1 - spatial hash grid
+* 0 - bruteforce,
+* 1 - spatial hash grid
 
 ## Used libraries
 1. [jsoncpp](https://github.com/open-source-parsers/jsoncpp)
